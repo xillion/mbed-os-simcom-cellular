@@ -1,3 +1,6 @@
 [submodule "mbed-os"]
 	path = mbed-os
 	url = git@github.com:ARMmbed/mbed-os.git
+[submodule "SIMCOM_SIM800C"]
+	path = SIMCOM_SIM800C
+	url = git@github.com:xillion/SIMCOM_SIM800C.git
