@@ -38,12 +38,14 @@
             "nsapi.default-cellular-username": null,
             "nsapi.default-cellular-password": null
         },
-        "DISCO_L496AG": {
+        "NUCLEO_L476RG": {
             "target.macros_add": [
-                "CELLULAR_DEVICE=STModCellular"
+                "CELLULAR_DEVICE=SIMCOM_SIM800C"
             ],
-            "target.components_add": ["STMOD_CELLULAR"],
-            "stmod_cellular.provide-default": "true"
+            "SIMCOM_SIM800C.tx": "PB_10",
+            "SIMCOM_SIM800C.rx": "PB_11",
+            "SIMCOM_SIM800C.pwrkey": "PB_15",
+            "SIMCOM_SIM800C.supply": "PC_4"
         }
     }
 }
